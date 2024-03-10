@@ -9,7 +9,9 @@ This package is licensed under the BSD Zero Clause license. It does not require 
 
 ## Using GameInput
 
-Here is an example how to use `GameInput` in a RealityKit `System`. Press and value change handlers can be set up for game pad buttons, but they can also be polled in the update loop.
+Below is an example how to use `GameInput` in a RealityKit `System`. Press and value change handlers can be set up for game pad buttons, but they can also be polled in the update loop.
+
+Currently, `GameInput` only supports one game pad at a time.
 
 ```swift
 import Foundation
